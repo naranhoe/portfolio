@@ -180,8 +180,8 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
-    background: #18bc9c;
+    color: #18bc9c;
+    background: #fff;
 }
 
 section.success a,
@@ -252,8 +252,12 @@ section.success a.active {
 
 #portfolio * {
     z-index: 2;
+    background-color: #18bc9c;
 }
 
+#portfolio h2 {
+  color: #fff;
+}
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
